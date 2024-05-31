@@ -1,3 +1,9 @@
+% A demo script showing how to design parallel transmit multiband RF
+% pulses. 
+% Added by xiaoping, 5/30/2024
+
+clear
+addpath('./src/');
 
 load fmapMS % load in b0 and16 channel b1+ mapping at 7T and masks defining the region of interest in the brain
 
