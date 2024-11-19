@@ -83,7 +83,7 @@ end
 
 %save prfpowctrl1x8MB2 rmse1x8 prfpow1x8
 %%
-% plot
+% plot L-curve
 figure, plot(rmse,prfpow./50,'bo-')
 xlabel('RMSE')
 ylabel('peak RF power (a.u.)')
